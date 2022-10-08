@@ -1,0 +1,12 @@
+$primaryColor: forestgreen;
+$secondaryColor: darkorchid;
+
+h1 {
+  color: $primaryColor;
+}
+
+.container {
+  &__sub {
+    color: $secondaryColor;
+  }
+}

@@ -1,3 +1,6 @@
+//import './style.css'
+import './styles/index.scss'
+
 const userStack ={
     language: 'JavaScript',
     framework: 'Vue',
