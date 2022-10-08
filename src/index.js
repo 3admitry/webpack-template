@@ -1,5 +1,7 @@
 //import './style.css'
 import './styles/index.scss'
+import $ from 'jquery'
+import 'bootstrap'
 
 const userStack ={
     language: 'JavaScript',
@@ -11,5 +13,6 @@ const user = {
     age: '33',
     ...userStack,
 }
+$('.qjuery_block').html('Text inserted by jQuery lib')
 
 console.log(user)

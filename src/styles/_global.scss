@@ -1,6 +1,10 @@
 $primaryColor: forestgreen;
 $secondaryColor: darkorchid;
 
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 h1 {
   color: $primaryColor;
 }
@@ -9,4 +13,20 @@ h1 {
   &__sub {
     color: $secondaryColor;
   }
+}
+
+.bg__img{
+  width: 300px;
+  height: 320px;
+  background: url("../images/webpack.jpg");
+  background-size: contain;
+  border-radius: 4px;
+  border: 1px solid gray;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.qjuery_block{
+  font-size: 25px;
+  color: $secondaryColor
 }
